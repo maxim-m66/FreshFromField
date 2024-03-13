@@ -1,0 +1,102 @@
+.farm-light-colour {
+    background-color: #67984B;
+    color: whitesmoke;
+}
+@font-face {
+    font-family: 'Jua';
+    src: url('../fonts/Jua-Regular.ttf') format('truetype');
+}
+.farm-dark-colour {
+    background-color: #0C312E;
+    color: white;
+    font-family: "Jua", serif;
+}
+input {
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: x-large;
+}
+.logo-img {
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.search-button {
+    height: 38px;
+    width: 38px;
+    border-radius: 0 5px 5px 0;
+    border-left: 2px solid #67984B;
+}
+.search-button:hover {
+    border: 3px solid black;
+}
+
+.my-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #67984B;
+    height: 180px;
+    width: 180px;
+}
+.circle p {
+    padding-top: 120px;
+    color: whitesmoke;
+}
+
+.circle i {
+    padding-top: 80px;
+}
+
+.listings-img img {
+    height: 100%;
+    width: 100%;
+}
+.listings-img {
+    border-radius: 5px 0 0 5px;
+    border-top: solid #0C312E 3px;
+    border-left: solid #0C312E 3px;
+    border-bottom: solid #0C312E 3px;
+    margin-left: 1%;
+    background-color: #67984B;
+    color: whitesmoke;
+}
+
+.listings-description {
+    border-top: solid #0C312E 3px;
+    border-bottom: solid #0C312E 3px;
+    border-left: solid #0C312E 1px;
+    background-color: #67984B;
+    color: whitesmoke;
+}
+
+.listings-price {
+    border-radius: 0 5px 5px 0;
+    border-top: solid #0C312E 3px;
+    border-right: solid #0C312E 3px;
+    border-bottom: solid #0C312E 3px;
+    border-left: solid #0C312E 1px;
+    margin-right: 1%;
+    background-color: #67984B;
+    color: whitesmoke;
+}
+
+.listing-img img {
+    padding: 5%;
+    height: 300px;
+    border-radius: 5px;
+    border: solid #0C312E 3px;
+}
+
+.listing-btn {
+    margin: 2%;
+}
+
+.listing-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
