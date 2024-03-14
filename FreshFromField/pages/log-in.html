@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Document</title>
+    <title>LogIn</title>
 </head>
 <body>
 <div class="container-fluid farm-light-colour sticky-top">
@@ -18,7 +18,7 @@
             </a>
         </div>
         <div class = "col-2"></div>
-        <div class = "col-4  d-flex align-items-center">
+        <div class = "col-4 d-flex align-items-center">
             <input class="farm-dark-colour search mr-sm-2" type="search" placeholder="Sve na dohvat ruke...">
             <button type="submit" class="btn farm-dark-colour search-button">
                 <i class="fas fa-search"></i>
@@ -30,46 +30,38 @@
         </div>
     </div>
 </div>
-<div class = "container-fluid" style="position: fixed; bottom: 18%;">
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-3 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center"><p>Voće</p></div>
-            </a>
+<div class="container" style="margin-top: 5%">
+    <div class = "row login-wrapper">
+        <div class = "col-2"></div>
+        <div class = "col-4">
+            <form>
+                <label>Email</label>
+                <input class="farm-dark-colour login-form mr-sm-2" type="search" placeholder="email@gmail.com">
+            </form>
         </div>
-        <div class="col-4 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center"><p>Povrće</p></div>
-            </a>
+        <div class = "col-4">
+            <form>
+                <label>Lozinka</label>
+                <input class="farm-dark-colour login-form mr-sm-2" type="password" placeholder="*****">
+            </form>
         </div>
-        <div class="col-3 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center"><p>Meso</p></div>
-            </a>
-        </div>
-        <div class="col-1"></div>
+        <div class = "col-2"></div>
     </div>
-    <div class="row" style="padding: 3%"></div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-3 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center">
-                <p>Mlečni proizvodi</p></div>
+    <div class = "row login-wrapper justify-content-center">
+        <div class="col-5"></div>
+        <div class = "col-2  d-flex justify-content-center">
+            <button type="button" class="btn farm-dark-colour btn-lg">ULOGUJ SE</button>
+        </div>
+        <div class="col-5"></div>
+    </div>
+    <div class = "row login-wrapper justify-content-center" style="margin-top: 5%">
+        <div class="col-4"></div>
+        <div class = "col-4  d-flex justify-content-center">
+            <a href="sign-in.html">
+            <button type="button" class="btn farm-dark-colour btn-lg">NAPRAVI NALOG</button>
             </a>
         </div>
-        <div class="col-4 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center"><p>Sirovina</p></div>
-            </a>
-        </div>
-        <div class="col-3 d-flex justify-content-center">
-            <a href="listings.html">
-            <div class = "circle d-flex justify-content-center"><p>Ostalo</p></div>
-            </a>
-        </div>
-        <div class="col-1"></div>
+        <div class="col-4"></div>
     </div>
 </div>
 <div class="container-fluid farm-light-colour sticky-bottom" style="position: fixed; bottom: 0">
