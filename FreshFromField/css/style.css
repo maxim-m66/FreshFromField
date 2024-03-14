@@ -61,6 +61,10 @@ body {
     color: whitesmoke;
 }
 
+.circle:hover p {
+    color: #0C312E;
+}
+
 .circle img {
     height: 30%;
     padding-bottom: 0;
