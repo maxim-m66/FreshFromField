@@ -24,6 +24,7 @@ body {
     border: 0;
     outline: none;
     font-size: x-large;
+    width: 100%;
 }
 
 .logo-img {
